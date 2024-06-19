@@ -1,9 +1,9 @@
+import HeroPartTwo from "@/components/Hero/HeroPartTwo";
 import HeroPartOne from "./HeroPartOne";
-import HeroPartTwo from "./HeroPartTwo";
 
 const Hero = () => {
   return (
-    <div className="py-8 flex flex-col gap-8">
+    <div className="py-8 flex flex-col gap-8 md:py-16 lg:relative lg:flex-row">
       <HeroPartOne />
       <HeroPartTwo />
     </div>

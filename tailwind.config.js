@@ -14,6 +14,10 @@ export default {
       },
       borderRadius:{
         "100": "100px"
+      },
+      screens:{
+        md: "1024px",
+        lg: "1440px"
       }
     },
   },

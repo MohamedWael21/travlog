@@ -5,9 +5,9 @@ import Service from "./Service";
 import Header from "@/components/Shared/Header";
 const Services = () => {
   return (
-    <div className="py-8 flex flex-col gap-8">
+    <div className="py-8 flex flex-col gap-8 md:py-16 md:gap-16">
       <Header title="Services" description="Our top value categories for you" />
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 md:flex-row">
         <Service
           img={serviceImg1}
           title="Best Tour Guide"

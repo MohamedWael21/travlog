@@ -8,20 +8,20 @@ const HeroPartTwo = () => {
           <p className=" text-primary font-bold text-sm">Explore the world!</p>
           <img src={bagImg} alt="bag icon" />
         </div>
-        <p className="font-bold text-[40px] text-center mt-4">
+        <p className="font-bold text-[40px] text-center mt-4 md:max-w-md md:mx-auto">
           Travel <span className="text-primary">top destination</span> of the
           world
         </p>
-        <p className="text-gray-1/2 font-bold text-base text-center">
+        <p className="text-gray-1/2 font-bold text-base  text-center md:max-w-md md:mx-auto md:text-lg">
           We always make our customer happy by providing as many choices as
           possible
         </p>
       </div>
-      <div className="flex flex-col gap-6">
-        <button className="bg-secondary px-8 py-6 text-base font-bold text-white rounded-100 shadow-xl">
+      <div className="flex flex-col gap-6 md:flex-row md:justify-center">
+        <button className="bg-secondary px-8 py-6 text-sm font-bold text-white rounded-100 shadow-xl">
           Get Started
         </button>
-        <button className="flex gap-2 justify-center items-center px-8 py-6 text-base font-bold text-white rounded-100 shadow-md">
+        <button className="flex gap-2 justify-center items-center px-8 py-6 text-sm font-bold text-white rounded-100 shadow-md">
           <img src={playImg} alt="play icon" />
           <span className="text-[#222831]">Watch Demo</span>
         </button>

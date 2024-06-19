@@ -1,8 +1,8 @@
 import starImg from "@/assets/star.png";
 const Destionation = ({ img, price, title, location, rating }) => {
   return (
-    <div className="shadow-2xl rounded-3xl">
-      <img src={img} alt={`${title}`} />
+    <div className="shadow-2xl rounded-2xl">
+      <img src={img} alt={`${title}`} className="w-full" />
       <div className="p-8 flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-2">

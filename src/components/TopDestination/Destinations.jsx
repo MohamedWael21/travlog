@@ -4,7 +4,7 @@ import destionationImg2 from "@/assets/destination2.png";
 import destionationImg3 from "@/assets/destination3.png";
 const Destinations = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 md:flex-row">
       <Destionation
         img={destionationImg1}
         title="Paradise Beach, Bantayan Island"

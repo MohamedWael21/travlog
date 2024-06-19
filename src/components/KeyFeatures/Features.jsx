@@ -4,7 +4,7 @@ import featureImg3 from "@/assets/feature3.png";
 import Feature from "@/components/KeyFeatures/Feature";
 const Features = () => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 md:gap-0">
       <Feature
         img={featureImg1}
         title="We offer best services"

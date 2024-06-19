@@ -12,8 +12,8 @@ import addPersonImg from "@/assets/add-person.png";
 import locationYellowImg from "@/assets/location.png";
 const HeroPartOne = () => {
   return (
-    <div className="relative h-[366px]">
-      <div className="relative md:w-[60%] md:mx-auto">
+    <div className="relative h-[366px] lg:absolute lg:-right-10 lg:w-[772px] lg:[713px]">
+      <div className="relative md:w-[60%] lg:w-[80%] md:mx-auto">
         <img
           src={earthImg}
           alt="earth"
@@ -50,7 +50,7 @@ const HeroPartOne = () => {
           />
         </div>
       </div>
-      <div className="absolute z-50 w-[80%] left-1/2 -translate-x-1/2 top-9 grid grid-cols-2 gap-4">
+      <div className="absolute z-50 w-[80%] md:w-[35%] left-1/2 -translate-x-1/2 top-9 grid grid-cols-2 gap-4">
         <img src={hero1Img} alt="" />
         <div className="row-span-3 flex items-center">
           <img src={hero3Img} alt="" className="row-span-2" />
